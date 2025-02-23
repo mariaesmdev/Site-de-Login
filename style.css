@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+
+body {
+   font-family: "Arial";
+   color:#404040;
+   /* flex container */
+   display: flex;
+    height: 100vh; /*viwer point high*/
+   background-color: #535e28;
+   justify-content: center;
+   align-items: center;
+}
+
+form{
+     /* flex child do body*/
+    background-color: white;
+    padding: 70px;
+    border-radius: 30px; /*para curvar o elemento */
+
+    display: flex ;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+h1{
+    font-size: 30px;
+    
+}
+
+.barra {
+    background-color: #2b3f1a;
+    height: 5px;
+    width: 210px;
+}
+
+.imput {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Lembrar-me {
+    display: flex;
+    gap: 5px;
+}
+
+.comeco{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 15px;
+    align-self: center;
+    width: 180px;
+    text-transform: uppercase;
+    background-image: linear-gradient(#9a9b79, #424d2f);
+    border: solid 1px #9a9b79;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+button:hover {
+    background-image: linear-gradient(#a8a97f, #515d3a); 
+    transform: scale(1.07);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+}
+
+
+input {
+    padding: 10px 20px;
+    border-radius: 16px;
+    border: none;
+    background-color: #f1f1f1;
+    font-family: arial;
+}
+ 
+a {
+    color: #95a74b;
+}
