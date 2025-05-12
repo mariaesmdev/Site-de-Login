@@ -8,19 +8,17 @@
 body {
    font-family: "Arial";
    color:#404040;
-   /* flex container */
    display: flex;
-    height: 100vh; /*viwer point high*/
+    height: 100vh;
    background-color: #535e28;
    justify-content: center;
    align-items: center;
 }
 
 form{
-     /* flex child do body*/
     background-color: white;
     padding: 70px;
-    border-radius: 30px; /*para curvar o elemento */
+    border-radius: 30px; 
 
     display: flex ;
     flex-direction: column;
